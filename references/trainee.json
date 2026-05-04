@@ -405,5 +405,116 @@
       "evolves_skill_id": null,
       "note": null
     }
+  },
+  {
+    "id": "100941",
+    "skill_name": "Faith in the Feral",
+    "character_name": "ジャングルポケット",
+    "costume_name": "王者の喊声",
+    "full_name": "[王者の喊声] ジャングルポケット",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [5, 10],
+      "rank_pct_min": 40,
+      "rank_pct_max": 80,
+      "distance_pct_min": 50,
+      "distance_pct_max": 51,
+      "phase": "中盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.45,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "101051",
+    "skill_name": "アド・アストラ",
+    "character_name": "ネオユニヴァース",
+    "costume_name": "Universe-Naut",
+    "full_name": "[Universe-Naut] ネオユニヴァース",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [5, 10],
+      "rank_pct_min": 40,
+      "rank_pct_max": 80,
+      "distance_pct_min": 50,
+      "distance_pct_max": 55,
+      "phase": "中盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.45,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "101171",
+    "skill_name": "鋭気のアレグロ",
+    "character_name": "ウインバリアシオン",
+    "costume_name": "ドラマティック・チュチュ",
+    "full_name": "[ドラマティック・チュチュ] ウインバリアシオン",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": null,
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "running_styles": ["追込"]
+    },
+    "effects": {
+      "target_speed_mps": 0.55,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 4.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.35,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
   }
 ]
