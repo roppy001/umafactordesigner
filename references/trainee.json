@@ -516,5 +516,116 @@
       "evolves_skill_id": null,
       "note": null
     }
+  },
+  {
+    "id": "100041",
+    "skill_name": "紅焔ギア/LP1211-M",
+    "character_name": "マルゼンスキー",
+    "costume_name": "フォーミュラオブルージュ",
+    "full_name": "[フォーミュラオブルージュ] マルゼンスキー",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [1, 5],
+      "rank_pct_min": 50,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.4,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 4.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "110331",
+    "skill_name": "Crystal Mist",
+    "character_name": "アドマイヤベガ",
+    "costume_name": "Glacialis Vega",
+    "full_name": "[Glacialis Vega] アドマイヤベガ",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [5, 12],
+      "rank_pct_min": null,
+      "rank_pct_max": 40,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "running_styles": ["追込"]
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.5,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 4.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "100701",
+    "skill_name": "セイリオス",
+    "character_name": "シリウスシンボリ",
+    "costume_name": "Féroce",
+    "full_name": "[Féroce] シリウスシンボリ",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [4, 7],
+      "rank_pct_min": 30,
+      "rank_pct_max": 60,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.5,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 4.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.3,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
   }
 ]
