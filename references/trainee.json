@@ -294,5 +294,116 @@
       "evolves_skill_id": null,
       "note": null
     }
+  },
+  {
+    "id": "100051",
+    "skill_name": "煌星のヴォードヴィル",
+    "character_name": "フジキセキ",
+    "costume_name": "シューティンスタァ・ルヴュ",
+    "full_name": "[シューティンスタァ・ルヴュ] フジキセキ",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [1, 5],
+      "rank_pct_min": 40,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "ラストスパート",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.45,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "110691",
+    "skill_name": "咲け咲け！私！",
+    "character_name": "サクラチヨノオー",
+    "costume_name": "Fleur Enneigée",
+    "full_name": "[Fleur Enneigée] サクラチヨノオー",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [4, 5],
+      "rank_pct_min": 30,
+      "rank_pct_max": 40,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "中盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.4,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "110151",
+    "skill_name": "恵福バルカローレ",
+    "character_name": "テイエムオペラオー",
+    "costume_name": "初晴・青き絢爛",
+    "full_name": "[初晴・青き絢爛] テイエムオペラオー",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [1, 5],
+      "rank_pct_min": 40,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "ラストスパート",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.45,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
   }
 ]
