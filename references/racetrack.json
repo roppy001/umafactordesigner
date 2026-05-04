@@ -1,1 +1,35 @@
-[] 
+[
+  {
+    "course_id": "10606",
+    "venue": "東京",
+    "distance_m": 2400,
+    "surface": "芝",
+    "direction": "左",
+    "distance_category": "中距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 400  },
+      "middle":        { "start_m": 400,  "end_m": 1600 },
+      "late":          { "start_m": 1600, "end_m": 2000 },
+      "last_sprint":   { "start_m": 2000, "end_m": 2400 },
+      "position_keep": { "start_m": 0,    "end_m": 1000 }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 0,    "end_m": 40,   "gradient_pct": 1.5  },
+      { "type": "uphill",   "start_m": 1125, "end_m": 1200, "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 1250, "end_m": 1500, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1950, "end_m": 2100, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 325,  "end_m": 575  },
+      { "number": 2, "start_m": 575,  "end_m": 900  },
+      { "number": 3, "start_m": 1350, "end_m": 1625 },
+      { "number": 4, "start_m": 1625, "end_m": 1875 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 325,  "length_m": 325 },
+      { "name": "直線2", "start_m": 900,  "end_m": 1350, "length_m": 450 },
+      { "name": "直線3", "start_m": 1875, "end_m": 2400, "length_m": 525 }
+    ],
+    "skill_aptitudes": ["左回り", "根幹距離", "東京レース場"]
+  }
+]
