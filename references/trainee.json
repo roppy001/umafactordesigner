@@ -1,1 +1,298 @@
-[] 
+[
+  {
+    "id": "10071",
+    "skill_name": "波乱注意砲！",
+    "character_name": "ゴールドシップ",
+    "costume_name": "通常",
+    "full_name": "通常ゴルシ",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [7, 12],
+      "rank_pct_min": null,
+      "rank_pct_max": 50,
+      "distance_pct_min": 50,
+      "distance_pct_max": 60,
+      "phase": "中盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.15,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 6.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.05,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.6,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "100071",
+    "skill_name": "不沈艦、抜錨ォッ！",
+    "character_name": "ゴールドシップ",
+    "costume_name": "通常",
+    "full_name": "通常ゴルシ",
+    "category": "進化固有",
+    "activation_conditions": {
+      "rank_range": [7, 12],
+      "rank_pct_min": null,
+      "rank_pct_max": 50,
+      "distance_pct_min": 50,
+      "distance_pct_max": 60,
+      "phase": "中盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 6.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.05,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.6,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "10271",
+    "skill_name": "燃えろ筋肉！",
+    "character_name": "メジロライアン",
+    "costume_name": "通常",
+    "full_name": "通常ライアン",
+    "category": "固有",
+    "activation_conditions": {
+      "rank_range": [8, null],
+      "rank_pct_min": 65,
+      "rank_pct_max": 70,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.3,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 4.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "100271",
+    "skill_name": "レッツ・アナボリック！",
+    "character_name": "メジロライアン",
+    "costume_name": "通常",
+    "full_name": "通常ライアン",
+    "category": "進化固有",
+    "activation_conditions": {
+      "rank_range": [8, null],
+      "rank_pct_min": 65,
+      "rank_pct_max": 70,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.4,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 4.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "100061",
+    "skill_name": "勝利の鼓動",
+    "character_name": "オグリキャップ",
+    "costume_name": "通常",
+    "full_name": "通常オグリ",
+    "category": "進化固有",
+    "activation_conditions": {
+      "rank_range": [2, 5],
+      "rank_pct_min": 50,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "ラストスパート",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.45,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "100161",
+    "skill_name": "Shadow Break",
+    "character_name": "ナリタブライアン",
+    "costume_name": "通常",
+    "full_name": "通常ナリブ",
+    "category": "進化固有",
+    "activation_conditions": {
+      "rank_range": [2, 9],
+      "rank_pct_min": 75,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "中盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.45,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "100171",
+    "skill_name": "汝、皇帝の神威を見よ",
+    "character_name": "シンボリルドルフ",
+    "costume_name": "通常",
+    "full_name": "通常ルドルフ",
+    "category": "進化固有",
+    "activation_conditions": {
+      "rank_range": null,
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "ラストスパート",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.45,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  },
+  {
+    "id": "100101",
+    "skill_name": "ヴィクトリーショット！",
+    "character_name": "タイキシャトル",
+    "costume_name": "通常",
+    "full_name": "通常タイキ",
+    "category": "進化固有",
+    "activation_conditions": {
+      "rank_range": [3, 5],
+      "rank_pct_min": 40,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.4,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 5.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
+  }
+]
