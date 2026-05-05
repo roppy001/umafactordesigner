@@ -688,5 +688,185 @@
       "evolves_skill_id": null
     },
     "note": "短距離・マイルのみ2段階目として最終盤ラストスパート中に0.25[m/s]追加発動あり"
+  },
+  {
+    "id": "910451",
+    "skill_name": "ぐるぐるマミートリック♡",
+    "character_name": "スーパークリーク",
+    "costume_name": "シフォンリボンマミー",
+    "full_name": "[シフォンリボンマミー] スーパークリーク",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [2, 4], "LoH": [2, 4] },
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "最終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.05,
+      "acceleration_mps2": 0.1,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "最終直線・4位以内・前方1バ身以内で発動"
+  },
+  {
+    "id": "900511",
+    "skill_name": "つぼみ、ほころぶ時",
+    "character_name": "ニシノフラワー",
+    "costume_name": "通常",
+    "full_name": "通常ニシノ",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [3, 4], "LoH": [3, 5] },
+      "rank_pct_min": 40,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "中盤コーナーで2秒以上競り合い後、終盤以降かつ最終コーナー後半・順位3位以降・40%以上で発動"
+  },
+  {
+    "id": "900911",
+    "skill_name": "デラックス☆ファウンテン",
+    "character_name": "ヴィブロス",
+    "costume_name": "通常",
+    "full_name": "通常ヴィブロス",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [3, 6], "LoH": [4, 8] },
+      "rank_pct_min": 30,
+      "rank_pct_max": 70,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "最終盤",
+      "phase_detail": "残り300m",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "終盤以降の最終直線入り後・残り300m以下で発動。冷静状態でない場合は目標速度0.05[m/s]に低下"
+  },
+  {
+    "id": "910861",
+    "skill_name": "解けぬ結い目",
+    "character_name": "メジロラモーヌ",
+    "costume_name": "Untouchable Eden",
+    "full_name": "[Untouchable Eden] メジロラモーヌ",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 4], "LoH": [1, 5] },
+      "rank_pct_min": 40,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "最終盤",
+      "phase_detail": "残り300m",
+      "running_styles": ["先行"]
+    },
+    "effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "先行専用。残り299〜301m地点で発動。先頭か先頭から2バ身以内の場合は目標速度0.05[m/s]に低下"
+  },
+  {
+    "id": "920231",
+    "skill_name": "勝利ヘ至ル累積",
+    "character_name": "ビワハヤヒデ",
+    "costume_name": "Engineered Victory",
+    "full_name": "[Engineered Victory] ビワハヤヒデ",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 5], "LoH": [1, 6] },
+      "rank_pct_min": 50,
+      "rank_pct_max": null,
+      "distance_pct_min": 50,
+      "distance_pct_max": 51,
+      "phase": "中盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.15,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "レース中間地点（走行距離50〜51%）で順位割合50%以上（前半）のときに発動"
+  },
+  {
+    "id": "900141",
+    "skill_name": "プランチャ☆ガナドール",
+    "character_name": "エルコンドルパサー",
+    "costume_name": "通常",
+    "full_name": "通常エル",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 2], "LoH": [1, 2] },
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "最終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.05,
+      "acceleration_mps2": 0.1,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "最終直線・残り持久力30%以上・2位以内で発動"
   }
 ]
