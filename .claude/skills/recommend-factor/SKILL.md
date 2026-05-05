@@ -48,23 +48,22 @@
 `trainee.json` の全スキルに対して、以下の観点でスコアを付ける。
 スコアは加算方式（最大100点）とし、各脚質ごとに独立して計算する。
 
-#### 3-0. rank_range の実効範囲計算（フィールドサイズ適用）
+#### 3-0. rank_range の参照（レースモード対応）
 
-スコアリング前に、各スキルの `activation_conditions.rank_range` に対して field_size を適用し実効範囲を求める:
+`activation_conditions.rank_range` はモード別に事前格納済み。`race_mode` に対応するキーを直接参照する:
 
 ```
-effective_rank_max = min(rank_range[1] ?? field_size, field_size)
-effective_rank_range = [rank_range[0], effective_rank_max]
+effective_rank_range = rank_range?.[race_mode]   // "チャンミ" or "LoH"
 ```
 
-- `rank_range[0] > field_size` の場合: そのスキルはこのフィールドでは発動不能 → **スコア 0 点で候補除外**
-- `rank_range[1]` が null の場合: 上限なし扱い（field_size を上限として使用）
-- `rank_range` 自体が null の場合: 順位条件なし（除外しない）
+- `rank_range` が `null` の場合: 順位条件なし（除外しない）
+- `effective_rank_range[0] > field_size` の場合: このフィールドでは発動不能 → **スコア 0 点で候補除外**
+- `effective_rank_range[1]` が null の場合: 上限なし扱い（除外しない）
 
-例（field_size = 9 の場合）:
-- `[7, 12]` → 実効 `[7, 9]`（有効・後方スキル）
-- `[10, 12]` → 除外（9頭立てでは10位以下は存在しない）
-- `[1, 3]` → 実効 `[1, 3]`（変化なし・前方スキル）
+例（race_mode = "チャンミ", field_size = 9 の場合）:
+- `{ "チャンミ": [7, 9], "LoH": [7, 12] }` → 実効 `[7, 9]`（有効・後方スキル）
+- `{ "チャンミ": null, "LoH": [10, 12] }` → 除外（9頭立て非対応）
+- `{ "チャンミ": [1, 3], "LoH": [1, 3] }` → 実効 `[1, 3]`（変化なし・前方スキル）
 
 #### 3-1. 脚質フィルター（必須条件）
 

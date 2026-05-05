@@ -61,7 +61,7 @@ U-toolsから最新の継承固有スキル情報を取得し、`references/trai
     "full_name": "通常ゴルシ",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": [7, 12],
+      "rank_range": { "チャンミ": [7, 9], "LoH": [7, 12] },
       "rank_pct_min": null,
       "rank_pct_max": 50,
       "distance_pct_min": 50,
@@ -209,8 +209,8 @@ U-toolsから全107コースのレース場情報を取得し、`references/race
 | `チャンミ` | 9頭 | チャンピオンズミーティング（デフォルト） |
 | `LoH` | 12頭 | リーグオブヒーローズ |
 
-`rank_range` の評価では、フィールドサイズを上限として `min(rank_range[1], field_size)` で実効最大順位を算出する。
-例: `rank_range: [7, 12]` の場合、チャンミ（9頭）では実効範囲 `[7, 9]`、LoH（12頭）では `[7, 12]`。
+`rank_range` は `チャンミ`（9頭）と `LoH`（12頭）の2種類を事前に格納済み。推奨ロジックではレースモードに対応するキーを直接参照する。
+`rank_range` が `null` のスキルは順位条件なし（除外しない）。
 
 ### 推奨ロジック
 
