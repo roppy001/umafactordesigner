@@ -1,5 +1,509 @@
 [
   {
+    "course_id": "10501",
+    "venue": "中山",
+    "distance_m": 1200,
+    "surface": "芝",
+    "direction": "右",
+    "distance_category": "短距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 200  },
+      "middle":        { "start_m": 200,  "end_m": 800  },
+      "late":          { "start_m": 800,  "end_m": 1000 },
+      "last_sprint":   { "start_m": 1000, "end_m": 1200 },
+      "position_keep": { "start_m": 0,    "end_m": 500  }
+    },
+    "slopes": [
+      { "type": "downhill", "start_m": 0,    "end_m": 200,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1025, "end_m": 1135, "gradient_pct": 2.0  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 300, "end_m": 650 },
+      { "number": 4, "start_m": 650, "end_m": 890 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 890, "end_m": 1200, "length_m": 310 }
+    ],
+    "skill_aptitudes": ["右回り", "根幹距離", "中山レース場"]
+  },
+  {
+    "course_id": "10502",
+    "venue": "中山",
+    "distance_m": 1600,
+    "surface": "芝",
+    "direction": "右",
+    "distance_category": "マイル",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 266  },
+      "middle":        { "start_m": 266,  "end_m": 1066 },
+      "late":          { "start_m": 1066, "end_m": 1333 },
+      "last_sprint":   { "start_m": 1333, "end_m": 1600 },
+      "position_keep": { "start_m": 0,    "end_m": 666  }
+    },
+    "slopes": [
+      { "type": "downhill", "start_m": 300,  "end_m": 600,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1425, "end_m": 1535, "gradient_pct": 2.0  }
+    ],
+    "corners": [
+      { "number": 2, "start_m": 50,   "end_m": 500  },
+      { "number": 3, "start_m": 700,  "end_m": 1050 },
+      { "number": 4, "start_m": 1050, "end_m": 1290 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 1290, "end_m": 1600, "length_m": 310 }
+    ],
+    "skill_aptitudes": ["右回り", "根幹距離", "中山レース場"]
+  },
+  {
+    "course_id": "10503",
+    "venue": "中山",
+    "distance_m": 1800,
+    "surface": "芝",
+    "direction": "右",
+    "distance_category": "マイル",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 300  },
+      "middle":        { "start_m": 300,  "end_m": 1200 },
+      "late":          { "start_m": 1200, "end_m": 1500 },
+      "last_sprint":   { "start_m": 1500, "end_m": 1800 },
+      "position_keep": { "start_m": 0,    "end_m": 750  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 1,   "end_m": 36,   "gradient_pct": 2.0  },
+      { "type": "uphill",   "start_m": 125,  "end_m": 325,  "gradient_pct": 1.5  },
+      { "type": "downhill", "start_m": 425,  "end_m": 825,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1625, "end_m": 1735, "gradient_pct": 2.0  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 175,  "end_m": 425  },
+      { "number": 2, "start_m": 425,  "end_m": 675  },
+      { "number": 3, "start_m": 1000, "end_m": 1250 },
+      { "number": 4, "start_m": 1250, "end_m": 1490 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 175,  "length_m": 175 },
+      { "name": "直線2", "start_m": 675,  "end_m": 1000, "length_m": 325 },
+      { "name": "直線3", "start_m": 1490, "end_m": 1800, "length_m": 310 }
+    ],
+    "skill_aptitudes": ["右回り", "非根幹距離", "中山レース場"]
+  },
+  {
+    "course_id": "10504",
+    "venue": "中山",
+    "distance_m": 2000,
+    "surface": "芝",
+    "direction": "右",
+    "distance_category": "中距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 333  },
+      "middle":        { "start_m": 333,  "end_m": 1333 },
+      "late":          { "start_m": 1333, "end_m": 1666 },
+      "last_sprint":   { "start_m": 1666, "end_m": 2000 },
+      "position_keep": { "start_m": 0,    "end_m": 833  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 125,  "end_m": 235,  "gradient_pct": 2.0  },
+      { "type": "uphill",   "start_m": 325,  "end_m": 525,  "gradient_pct": 1.5  },
+      { "type": "downhill", "start_m": 625,  "end_m": 1025, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1825, "end_m": 1935, "gradient_pct": 2.0  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 375,  "end_m": 625  },
+      { "number": 2, "start_m": 625,  "end_m": 875  },
+      { "number": 3, "start_m": 1200, "end_m": 1450 },
+      { "number": 4, "start_m": 1450, "end_m": 1690 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 375,  "length_m": 375 },
+      { "name": "直線2", "start_m": 875,  "end_m": 1200, "length_m": 325 },
+      { "name": "直線3", "start_m": 1690, "end_m": 2000, "length_m": 310 }
+    ],
+    "skill_aptitudes": ["右回り", "根幹距離", "中山レース場"]
+  },
+  {
+    "course_id": "10505",
+    "venue": "中山",
+    "distance_m": 2200,
+    "surface": "芝",
+    "direction": "右",
+    "distance_category": "中距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 366  },
+      "middle":        { "start_m": 366,  "end_m": 1466 },
+      "late":          { "start_m": 1466, "end_m": 1833 },
+      "last_sprint":   { "start_m": 1833, "end_m": 2200 },
+      "position_keep": { "start_m": 0,    "end_m": 916  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 153,  "end_m": 263,  "gradient_pct": 2.0  },
+      { "type": "uphill",   "start_m": 353,  "end_m": 553,  "gradient_pct": 1.5  },
+      { "type": "downhill", "start_m": 900,  "end_m": 1200, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 2025, "end_m": 2135, "gradient_pct": 2.0  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 403,  "end_m": 650  },
+      { "number": 2, "start_m": 650,  "end_m": 1100 },
+      { "number": 3, "start_m": 1300, "end_m": 1650 },
+      { "number": 4, "start_m": 1650, "end_m": 1890 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 403,  "length_m": 403 },
+      { "name": "直線2", "start_m": 1890, "end_m": 2200, "length_m": 310 }
+    ],
+    "skill_aptitudes": ["右回り", "非根幹距離", "中山レース場"]
+  },
+  {
+    "course_id": "10506",
+    "venue": "中山",
+    "distance_m": 2500,
+    "surface": "芝",
+    "direction": "右",
+    "distance_category": "長距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 416  },
+      "middle":        { "start_m": 416,  "end_m": 1666 },
+      "late":          { "start_m": 1666, "end_m": 2083 },
+      "last_sprint":   { "start_m": 2083, "end_m": 2500 },
+      "position_keep": { "start_m": 0,    "end_m": 1041 }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 621,  "end_m": 731,  "gradient_pct": 2.0  },
+      { "type": "uphill",   "start_m": 825,  "end_m": 1025, "gradient_pct": 1.5  },
+      { "type": "downhill", "start_m": 1125, "end_m": 1525, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 2325, "end_m": 2435, "gradient_pct": 2.0  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 100,  "end_m": 246  },
+      { "number": 4, "start_m": 246,  "end_m": 496  },
+      { "number": 1, "start_m": 496,  "end_m": 875  },
+      { "number": 2, "start_m": 875,  "end_m": 1125 },
+      { "number": 3, "start_m": 1700, "end_m": 1950 },
+      { "number": 4, "start_m": 1950, "end_m": 2190 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 1125, "end_m": 1375, "length_m": 250 },
+      { "name": "直線2", "start_m": 1375, "end_m": 1700, "length_m": 325 },
+      { "name": "直線3", "start_m": 2190, "end_m": 2500, "length_m": 310 }
+    ],
+    "skill_aptitudes": ["右回り", "非根幹距離", "中山レース場"]
+  },
+  {
+    "course_id": "10507",
+    "venue": "中山",
+    "distance_m": 3600,
+    "surface": "芝",
+    "direction": "右",
+    "distance_category": "長距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 600  },
+      "middle":        { "start_m": 600,  "end_m": 2400 },
+      "late":          { "start_m": 2400, "end_m": 3000 },
+      "last_sprint":   { "start_m": 3000, "end_m": 3600 },
+      "position_keep": { "start_m": 0,    "end_m": 1500 }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 40,   "end_m": 150,  "gradient_pct": 2.0  },
+      { "type": "uphill",   "start_m": 240,  "end_m": 440,  "gradient_pct": 1.5  },
+      { "type": "downhill", "start_m": 540,  "end_m": 940,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1740, "end_m": 1850, "gradient_pct": 2.0  },
+      { "type": "uphill",   "start_m": 1925, "end_m": 2125, "gradient_pct": 1.5  },
+      { "type": "downhill", "start_m": 2225, "end_m": 2625, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 3425, "end_m": 3535, "gradient_pct": 2.0  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 290,  "end_m": 540  },
+      { "number": 2, "start_m": 540,  "end_m": 790  },
+      { "number": 3, "start_m": 1115, "end_m": 1365 },
+      { "number": 4, "start_m": 1365, "end_m": 1615 },
+      { "number": 1, "start_m": 1975, "end_m": 2225 },
+      { "number": 2, "start_m": 2225, "end_m": 2475 },
+      { "number": 3, "start_m": 2800, "end_m": 3050 },
+      { "number": 4, "start_m": 3050, "end_m": 3290 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 290,  "length_m": 290 },
+      { "name": "直線2", "start_m": 790,  "end_m": 1115, "length_m": 325 },
+      { "name": "直線3", "start_m": 1615, "end_m": 1975, "length_m": 360 },
+      { "name": "直線4", "start_m": 2475, "end_m": 2800, "length_m": 325 },
+      { "name": "直線5", "start_m": 3290, "end_m": 3600, "length_m": 310 }
+    ],
+    "skill_aptitudes": ["右回り", "根幹距離", "中山レース場"]
+  },
+  {
+    "course_id": "10508",
+    "venue": "中山",
+    "distance_m": 1200,
+    "surface": "ダート",
+    "direction": "右",
+    "distance_category": "短距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 200  },
+      "middle":        { "start_m": 200,  "end_m": 800  },
+      "late":          { "start_m": 800,  "end_m": 1000 },
+      "last_sprint":   { "start_m": 1000, "end_m": 1200 },
+      "position_keep": { "start_m": 0,    "end_m": 500  }
+    },
+    "slopes": [
+      { "type": "downhill", "start_m": 175,  "end_m": 350,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1000, "end_m": 1175, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 500, "end_m": 700 },
+      { "number": 4, "start_m": 700, "end_m": 892 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,   "end_m": 500,  "length_m": 500 },
+      { "name": "直線1", "start_m": 892, "end_m": 1200, "length_m": 308 }
+    ],
+    "skill_aptitudes": ["右回り", "根幹距離", "中山レース場", "踏み込み上手"]
+  },
+  {
+    "course_id": "10509",
+    "venue": "中山",
+    "distance_m": 1800,
+    "surface": "ダート",
+    "direction": "右",
+    "distance_category": "マイル",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 300  },
+      "middle":        { "start_m": 300,  "end_m": 1200 },
+      "late":          { "start_m": 1200, "end_m": 1500 },
+      "last_sprint":   { "start_m": 1500, "end_m": 1800 },
+      "position_keep": { "start_m": 0,    "end_m": 750  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 100, "end_m": 275, "gradient_pct": 1.5  },
+      { "type": "uphill",   "start_m": 350, "end_m": 525, "gradient_pct": 1.0  },
+      { "type": "downhill", "start_m": 775, "end_m": 950, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1600, "end_m": 1775, "gradient_pct": 1.5 }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 350,  "end_m": 550  },
+      { "number": 2, "start_m": 550,  "end_m": 750  },
+      { "number": 3, "start_m": 1100, "end_m": 1300 },
+      { "number": 4, "start_m": 1300, "end_m": 1492 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 350,  "length_m": 350 },
+      { "name": "直線2", "start_m": 750,  "end_m": 1100, "length_m": 350 },
+      { "name": "直線3", "start_m": 1492, "end_m": 1800, "length_m": 308 }
+    ],
+    "skill_aptitudes": ["右回り", "非根幹距離", "中山レース場", "踏み込み上手"]
+  },
+  {
+    "course_id": "10510",
+    "venue": "中山",
+    "distance_m": 2400,
+    "surface": "ダート",
+    "direction": "右",
+    "distance_category": "中距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 400  },
+      "middle":        { "start_m": 400,  "end_m": 1600 },
+      "late":          { "start_m": 1600, "end_m": 2000 },
+      "last_sprint":   { "start_m": 2000, "end_m": 2400 },
+      "position_keep": { "start_m": 0,    "end_m": 1000 }
+    },
+    "slopes": [],
+    "corners": [
+      { "number": 3, "start_m": 200,  "end_m": 400  },
+      { "number": 4, "start_m": 400,  "end_m": 600  },
+      { "number": 1, "start_m": 950,  "end_m": 1150 },
+      { "number": 2, "start_m": 1150, "end_m": 1350 },
+      { "number": 3, "start_m": 1700, "end_m": 1900 },
+      { "number": 4, "start_m": 1900, "end_m": 2092 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,    "end_m": 200,  "length_m": 200 },
+      { "name": "直線1", "start_m": 600,  "end_m": 950,  "length_m": 350 },
+      { "name": "直線2", "start_m": 1350, "end_m": 1700, "length_m": 350 },
+      { "name": "直線3", "start_m": 2092, "end_m": 2400, "length_m": 308 }
+    ],
+    "skill_aptitudes": ["右回り", "根幹距離", "中山レース場", "踏み込み上手"]
+  },
+  {
+    "course_id": "10511",
+    "venue": "中山",
+    "distance_m": 2500,
+    "surface": "ダート",
+    "direction": "右",
+    "distance_category": "長距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 416  },
+      "middle":        { "start_m": 416,  "end_m": 1666 },
+      "late":          { "start_m": 1666, "end_m": 2083 },
+      "last_sprint":   { "start_m": 2083, "end_m": 2500 },
+      "position_keep": { "start_m": 0,    "end_m": 1041 }
+    },
+    "slopes": [],
+    "corners": [
+      { "number": 3, "start_m": 300,  "end_m": 500  },
+      { "number": 4, "start_m": 500,  "end_m": 700  },
+      { "number": 1, "start_m": 1050, "end_m": 1250 },
+      { "number": 2, "start_m": 1250, "end_m": 1450 },
+      { "number": 3, "start_m": 1800, "end_m": 2000 },
+      { "number": 4, "start_m": 2000, "end_m": 2192 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,    "end_m": 300,  "length_m": 300 },
+      { "name": "直線1", "start_m": 700,  "end_m": 1050, "length_m": 350 },
+      { "name": "直線2", "start_m": 1450, "end_m": 1800, "length_m": 350 },
+      { "name": "直線3", "start_m": 2192, "end_m": 2500, "length_m": 308 }
+    ],
+    "skill_aptitudes": ["右回り", "非根幹距離", "中山レース場", "踏み込み上手"]
+  },
+  {
+    "course_id": "10601",
+    "venue": "東京",
+    "distance_m": 1400,
+    "surface": "芝",
+    "direction": "左",
+    "distance_category": "短距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 233  },
+      "middle":        { "start_m": 233,  "end_m": 933  },
+      "late":          { "start_m": 933,  "end_m": 1166 },
+      "last_sprint":   { "start_m": 1166, "end_m": 1400 },
+      "position_keep": { "start_m": 0,    "end_m": 583  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 125, "end_m": 200,  "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 250, "end_m": 500,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 950, "end_m": 1100, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 350, "end_m": 625 },
+      { "number": 4, "start_m": 625, "end_m": 875 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,   "end_m": 350,  "length_m": 350 },
+      { "name": "直線1", "start_m": 875, "end_m": 1400, "length_m": 525 }
+    ],
+    "skill_aptitudes": ["左回り", "非根幹距離", "東京レース場"]
+  },
+  {
+    "course_id": "10602",
+    "venue": "東京",
+    "distance_m": 1600,
+    "surface": "芝",
+    "direction": "左",
+    "distance_category": "マイル",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 266  },
+      "middle":        { "start_m": 266,  "end_m": 1066 },
+      "late":          { "start_m": 1066, "end_m": 1333 },
+      "last_sprint":   { "start_m": 1333, "end_m": 1600 },
+      "position_keep": { "start_m": 0,    "end_m": 666  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 325,  "end_m": 400,  "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 450,  "end_m": 700,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1150, "end_m": 1300, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 550,  "end_m": 825  },
+      { "number": 4, "start_m": 825,  "end_m": 1075 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,    "end_m": 550,  "length_m": 550 },
+      { "name": "直線1", "start_m": 1075, "end_m": 1600, "length_m": 525 }
+    ],
+    "skill_aptitudes": ["左回り", "根幹距離", "東京レース場"]
+  },
+  {
+    "course_id": "10603",
+    "venue": "東京",
+    "distance_m": 1800,
+    "surface": "芝",
+    "direction": "左",
+    "distance_category": "マイル",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 300  },
+      "middle":        { "start_m": 300,  "end_m": 1200 },
+      "late":          { "start_m": 1200, "end_m": 1500 },
+      "last_sprint":   { "start_m": 1500, "end_m": 1800 },
+      "position_keep": { "start_m": 0,    "end_m": 750  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 525,  "end_m": 600,  "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 650,  "end_m": 900,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1350, "end_m": 1500, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 0,    "end_m": 75   },
+      { "number": 2, "start_m": 75,   "end_m": 325  },
+      { "number": 3, "start_m": 750,  "end_m": 1025 },
+      { "number": 4, "start_m": 1025, "end_m": 1275 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 325,  "end_m": 750,  "length_m": 425 },
+      { "name": "直線1", "start_m": 1275, "end_m": 1800, "length_m": 525 }
+    ],
+    "skill_aptitudes": ["左回り", "非根幹距離", "東京レース場"]
+  },
+  {
+    "course_id": "10604",
+    "venue": "東京",
+    "distance_m": 2000,
+    "surface": "芝",
+    "direction": "左",
+    "distance_category": "中距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 333  },
+      "middle":        { "start_m": 333,  "end_m": 1333 },
+      "late":          { "start_m": 1333, "end_m": 1666 },
+      "last_sprint":   { "start_m": 1666, "end_m": 2000 },
+      "position_keep": { "start_m": 0,    "end_m": 833  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 725,  "end_m": 800,  "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 850,  "end_m": 1100, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1550, "end_m": 1700, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 2, "start_m": 200,  "end_m": 400  },
+      { "number": 3, "start_m": 950,  "end_m": 1225 },
+      { "number": 4, "start_m": 1225, "end_m": 1475 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 400,  "end_m": 950,  "length_m": 550 },
+      { "name": "直線1", "start_m": 1475, "end_m": 2000, "length_m": 525 }
+    ],
+    "skill_aptitudes": ["左回り", "根幹距離", "東京レース場"]
+  },
+  {
+    "course_id": "10605",
+    "venue": "東京",
+    "distance_m": 2300,
+    "surface": "芝",
+    "direction": "左",
+    "distance_category": "中距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 383  },
+      "middle":        { "start_m": 383,  "end_m": 1533 },
+      "late":          { "start_m": 1533, "end_m": 1916 },
+      "last_sprint":   { "start_m": 1916, "end_m": 2300 },
+      "position_keep": { "start_m": 0,    "end_m": 958  }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 1025, "end_m": 1100, "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 1150, "end_m": 1400, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 1850, "end_m": 2000, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 225,  "end_m": 475  },
+      { "number": 2, "start_m": 475,  "end_m": 800  },
+      { "number": 3, "start_m": 1250, "end_m": 1525 },
+      { "number": 4, "start_m": 1525, "end_m": 1775 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 225,  "length_m": 225 },
+      { "name": "直線2", "start_m": 800,  "end_m": 1250, "length_m": 450 },
+      { "name": "直線3", "start_m": 1775, "end_m": 2300, "length_m": 525 }
+    ],
+    "skill_aptitudes": ["左回り", "非根幹距離", "東京レース場"]
+  },
+  {
     "course_id": "10606",
     "venue": "東京",
     "distance_m": 2400,
@@ -31,5 +535,219 @@
       { "name": "直線3", "start_m": 1875, "end_m": 2400, "length_m": 525 }
     ],
     "skill_aptitudes": ["左回り", "根幹距離", "東京レース場"]
+  },
+  {
+    "course_id": "10607",
+    "venue": "東京",
+    "distance_m": 2500,
+    "surface": "芝",
+    "direction": "左",
+    "distance_category": "長距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 416  },
+      "middle":        { "start_m": 416,  "end_m": 1666 },
+      "late":          { "start_m": 1666, "end_m": 2083 },
+      "last_sprint":   { "start_m": 2083, "end_m": 2500 },
+      "position_keep": { "start_m": 0,    "end_m": 1041 }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 0,    "end_m": 140,  "gradient_pct": 1.5  },
+      { "type": "uphill",   "start_m": 1225, "end_m": 1300, "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 1350, "end_m": 1600, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 2050, "end_m": 2200, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 425,  "end_m": 675  },
+      { "number": 2, "start_m": 675,  "end_m": 1000 },
+      { "number": 3, "start_m": 1450, "end_m": 1725 },
+      { "number": 4, "start_m": 1725, "end_m": 1975 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 425,  "length_m": 425 },
+      { "name": "直線2", "start_m": 1000, "end_m": 1450, "length_m": 450 },
+      { "name": "直線3", "start_m": 1975, "end_m": 2500, "length_m": 525 }
+    ],
+    "skill_aptitudes": ["左回り", "非根幹距離", "東京レース場"]
+  },
+  {
+    "course_id": "10608",
+    "venue": "東京",
+    "distance_m": 3400,
+    "surface": "芝",
+    "direction": "左",
+    "distance_category": "長距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 566  },
+      "middle":        { "start_m": 566,  "end_m": 2266 },
+      "late":          { "start_m": 2266, "end_m": 2833 },
+      "last_sprint":   { "start_m": 2833, "end_m": 3400 },
+      "position_keep": { "start_m": 0,    "end_m": 1416 }
+    },
+    "slopes": [
+      { "type": "uphill",   "start_m": 67,   "end_m": 142,  "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 192,  "end_m": 442,  "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 892,  "end_m": 1042, "gradient_pct": 1.5  },
+      { "type": "uphill",   "start_m": 2125, "end_m": 2200, "gradient_pct": 2.0  },
+      { "type": "downhill", "start_m": 2250, "end_m": 2500, "gradient_pct": -1.5 },
+      { "type": "uphill",   "start_m": 2950, "end_m": 3100, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 292,  "end_m": 567  },
+      { "number": 4, "start_m": 567,  "end_m": 842  },
+      { "number": 1, "start_m": 1325, "end_m": 1575 },
+      { "number": 2, "start_m": 1575, "end_m": 1900 },
+      { "number": 3, "start_m": 2350, "end_m": 2625 },
+      { "number": 4, "start_m": 2625, "end_m": 2875 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,    "end_m": 292,  "length_m": 292 },
+      { "name": "直線1", "start_m": 842,  "end_m": 1325, "length_m": 483 },
+      { "name": "直線2", "start_m": 1900, "end_m": 2350, "length_m": 450 },
+      { "name": "直線1", "start_m": 2875, "end_m": 3400, "length_m": 525 }
+    ],
+    "skill_aptitudes": ["左回り", "非根幹距離", "東京レース場"]
+  },
+  {
+    "course_id": "10609",
+    "venue": "東京",
+    "distance_m": 1300,
+    "surface": "ダート",
+    "direction": "左",
+    "distance_category": "短距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 216  },
+      "middle":        { "start_m": 216,  "end_m": 866  },
+      "late":          { "start_m": 866,  "end_m": 1083 },
+      "last_sprint":   { "start_m": 1083, "end_m": 1300 },
+      "position_keep": { "start_m": 0,    "end_m": 541  }
+    },
+    "slopes": [
+      { "type": "downhill", "start_m": 275, "end_m": 475,  "gradient_pct": -1.0 },
+      { "type": "uphill",   "start_m": 800, "end_m": 1050, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 350, "end_m": 575 },
+      { "number": 4, "start_m": 575, "end_m": 799 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,   "end_m": 350,  "length_m": 350 },
+      { "name": "直線1", "start_m": 799, "end_m": 1300, "length_m": 501 }
+    ],
+    "skill_aptitudes": ["左回り", "非根幹距離", "東京レース場", "踏み込み上手"]
+  },
+  {
+    "course_id": "10610",
+    "venue": "東京",
+    "distance_m": 1400,
+    "surface": "ダート",
+    "direction": "左",
+    "distance_category": "短距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 233  },
+      "middle":        { "start_m": 233,  "end_m": 933  },
+      "late":          { "start_m": 933,  "end_m": 1166 },
+      "last_sprint":   { "start_m": 1166, "end_m": 1400 },
+      "position_keep": { "start_m": 0,    "end_m": 583  }
+    },
+    "slopes": [
+      { "type": "downhill", "start_m": 375, "end_m": 575,  "gradient_pct": -1.0 },
+      { "type": "uphill",   "start_m": 900, "end_m": 1150, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 450, "end_m": 675 },
+      { "number": 4, "start_m": 675, "end_m": 899 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,   "end_m": 450,  "length_m": 450 },
+      { "name": "直線1", "start_m": 899, "end_m": 1400, "length_m": 501 }
+    ],
+    "skill_aptitudes": ["左回り", "非根幹距離", "東京レース場", "踏み込み上手"]
+  },
+  {
+    "course_id": "10611",
+    "venue": "東京",
+    "distance_m": 1600,
+    "surface": "ダート",
+    "direction": "左",
+    "distance_category": "マイル",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 266  },
+      "middle":        { "start_m": 266,  "end_m": 1066 },
+      "late":          { "start_m": 1066, "end_m": 1333 },
+      "last_sprint":   { "start_m": 1333, "end_m": 1600 },
+      "position_keep": { "start_m": 0,    "end_m": 666  }
+    },
+    "slopes": [
+      { "type": "downhill", "start_m": 575,  "end_m": 775,  "gradient_pct": -1.0 },
+      { "type": "uphill",   "start_m": 1100, "end_m": 1350, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 3, "start_m": 650, "end_m": 875  },
+      { "number": 4, "start_m": 875, "end_m": 1099 }
+    ],
+    "straights": [
+      { "name": "直線2", "start_m": 0,    "end_m": 650,  "length_m": 650 },
+      { "name": "直線1", "start_m": 1099, "end_m": 1600, "length_m": 501 }
+    ],
+    "skill_aptitudes": ["左回り", "根幹距離", "東京レース場", "踏み込み上手"]
+  },
+  {
+    "course_id": "10612",
+    "venue": "東京",
+    "distance_m": 2100,
+    "surface": "ダート",
+    "direction": "左",
+    "distance_category": "中距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 350  },
+      "middle":        { "start_m": 350,  "end_m": 1400 },
+      "late":          { "start_m": 1400, "end_m": 1750 },
+      "last_sprint":   { "start_m": 1750, "end_m": 2100 },
+      "position_keep": { "start_m": 0,    "end_m": 875  }
+    },
+    "slopes": [
+      { "type": "downhill", "start_m": 1075, "end_m": 1275, "gradient_pct": -1.0 },
+      { "type": "uphill",   "start_m": 1600, "end_m": 1850, "gradient_pct": 1.5  }
+    ],
+    "corners": [
+      { "number": 1, "start_m": 200,  "end_m": 450  },
+      { "number": 2, "start_m": 450,  "end_m": 700  },
+      { "number": 3, "start_m": 1150, "end_m": 1375 },
+      { "number": 4, "start_m": 1375, "end_m": 1599 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 200,  "length_m": 200 },
+      { "name": "直線2", "start_m": 700,  "end_m": 1150, "length_m": 450 },
+      { "name": "直線3", "start_m": 1599, "end_m": 2100, "length_m": 501 }
+    ],
+    "skill_aptitudes": ["左回り", "非根幹距離", "東京レース場", "踏み込み上手"]
+  },
+  {
+    "course_id": "10613",
+    "venue": "東京",
+    "distance_m": 2400,
+    "surface": "ダート",
+    "direction": "左",
+    "distance_category": "中距離",
+    "phases": {
+      "early":         { "start_m": 0,    "end_m": 400  },
+      "middle":        { "start_m": 400,  "end_m": 1600 },
+      "late":          { "start_m": 1600, "end_m": 2000 },
+      "last_sprint":   { "start_m": 2000, "end_m": 2400 },
+      "position_keep": { "start_m": 0,    "end_m": 1000 }
+    },
+    "slopes": [],
+    "corners": [
+      { "number": 1, "start_m": 500,  "end_m": 750  },
+      { "number": 2, "start_m": 750,  "end_m": 1000 },
+      { "number": 3, "start_m": 1450, "end_m": 1675 },
+      { "number": 4, "start_m": 1675, "end_m": 1900 }
+    ],
+    "straights": [
+      { "name": "直線1", "start_m": 0,    "end_m": 500,  "length_m": 500 },
+      { "name": "直線2", "start_m": 1000, "end_m": 1450, "length_m": 450 },
+      { "name": "直線3", "start_m": 1900, "end_m": 2400, "length_m": 500 }
+    ],
+    "skill_aptitudes": ["左回り", "根幹距離", "東京レース場", "踏み込み上手"]
   }
 ]
