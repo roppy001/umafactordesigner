@@ -7,7 +7,7 @@
     "full_name": "通常ゴルシ",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [7, 9], "LoH": [7, 12] },
+      "rank_range": { "チャンミ": [6, 9], "LoH": [7, 12] },
       "rank_pct_min": null,
       "rank_pct_max": 50,
       "distance_pct_min": 50,
@@ -44,7 +44,7 @@
     "full_name": "通常ゴルシ",
     "category": "進化固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [7, 9], "LoH": [7, 12] },
+      "rank_range": { "チャンミ": [6, 9], "LoH": [7, 12] },
       "rank_pct_min": null,
       "rank_pct_max": 50,
       "distance_pct_min": 50,
@@ -81,7 +81,7 @@
     "full_name": "通常ライアン",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [8, null], "LoH": [8, null] },
+      "rank_range": { "チャンミ": [6, null], "LoH": [8, null] },
       "rank_pct_min": 65,
       "rank_pct_max": 70,
       "distance_pct_min": null,
@@ -118,7 +118,7 @@
     "full_name": "通常ライアン",
     "category": "進化固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [8, null], "LoH": [8, null] },
+      "rank_range": { "チャンミ": [6, null], "LoH": [8, null] },
       "rank_pct_min": 65,
       "rank_pct_max": 70,
       "distance_pct_min": null,
@@ -192,7 +192,7 @@
     "full_name": "通常ナリブ",
     "category": "進化固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [2, 9], "LoH": [2, 9] },
+      "rank_range": { "チャンミ": [2, 7], "LoH": [2, 9] },
       "rank_pct_min": 75,
       "rank_pct_max": null,
       "distance_pct_min": null,
@@ -266,7 +266,7 @@
     "full_name": "通常タイキ",
     "category": "進化固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [3, 5], "LoH": [3, 5] },
+      "rank_range": { "チャンミ": [3, 4], "LoH": [3, 5] },
       "rank_pct_min": 40,
       "rank_pct_max": null,
       "distance_pct_min": null,
@@ -303,7 +303,7 @@
     "full_name": "[シューティンスタァ・ルヴュ] フジキセキ",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [1, 5], "LoH": [1, 5] },
+      "rank_range": { "チャンミ": [1, 4], "LoH": [1, 5] },
       "rank_pct_min": 40,
       "rank_pct_max": null,
       "distance_pct_min": null,
@@ -340,7 +340,7 @@
     "full_name": "[Fleur Enneigée] サクラチヨノオー",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [4, 5], "LoH": [4, 5] },
+      "rank_range": { "チャンミ": [3, 4], "LoH": [4, 5] },
       "rank_pct_min": 30,
       "rank_pct_max": 40,
       "distance_pct_min": null,
@@ -377,7 +377,7 @@
     "full_name": "[初晴・青き絢爛] テイエムオペラオー",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [1, 5], "LoH": [1, 5] },
+      "rank_range": { "チャンミ": [1, 4], "LoH": [1, 5] },
       "rank_pct_min": 40,
       "rank_pct_max": null,
       "distance_pct_min": null,
@@ -414,7 +414,7 @@
     "full_name": "[王者の喊声] ジャングルポケット",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [5, 9], "LoH": [5, 10] },
+      "rank_range": { "チャンミ": [4, 7], "LoH": [5, 10] },
       "rank_pct_min": 40,
       "rank_pct_max": 80,
       "distance_pct_min": 50,
@@ -451,7 +451,7 @@
     "full_name": "[Universe-Naut] ネオユニヴァース",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [5, 9], "LoH": [5, 10] },
+      "rank_range": { "チャンミ": [4, 7], "LoH": [5, 10] },
       "rank_pct_min": 40,
       "rank_pct_max": 80,
       "distance_pct_min": 50,
@@ -562,7 +562,7 @@
     "full_name": "[Glacialis Vega] アドマイヤベガ",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [5, 9], "LoH": [5, 12] },
+      "rank_range": { "チャンミ": [4, 9], "LoH": [5, 12] },
       "rank_pct_min": null,
       "rank_pct_max": 40,
       "distance_pct_min": null,
@@ -599,7 +599,7 @@
     "full_name": "[Féroce] シリウスシンボリ",
     "category": "固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [4, 7], "LoH": [4, 7] },
+      "rank_range": { "チャンミ": [3, 5], "LoH": [4, 7] },
       "rank_pct_min": 30,
       "rank_pct_max": 60,
       "distance_pct_min": null,
