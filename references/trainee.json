@@ -553,5 +553,79 @@
       "evolves_skill_id": null,
       "note": null
     }
+  },
+  {
+    "id": "901351",
+    "skill_name": "黄金を訪ねて",
+    "character_name": "ステイゴールド",
+    "costume_name": "Sunlit Outsider",
+    "full_name": "[Sunlit Outsider] ステイゴールド",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": null,
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": 50,
+      "distance_pct_max": null,
+      "phase": null,
+      "running_styles": ["差し", "追込"]
+    },
+    "effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 6.0,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": 0.05,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.6,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": true,
+      "evolves_skill_id": "91101351",
+      "note": "親として使用時に特定の継承先の固有スキルが進化する"
+    }
+  },
+  {
+    "id": "91101351",
+    "skill_name": "黄金を訪ねて",
+    "character_name": "ステイゴールド",
+    "costume_name": "Sunlit Outsider",
+    "full_name": "[Sunlit Outsider] ステイゴールド",
+    "category": "進化固有",
+    "activation_conditions": {
+      "rank_range": null,
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": 50,
+      "distance_pct_max": null,
+      "phase": null,
+      "running_styles": ["差し", "追込"]
+    },
+    "effects": {
+      "target_speed_mps": 0.15,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_base_sec": 3.6,
+      "duration_multiplier": "distance_m / 1000",
+      "cooldown_base_sec": 500
+    },
+    "inherited_effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": null,
+      "cost_pt": null
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null,
+      "note": null
+    }
   }
 ]
