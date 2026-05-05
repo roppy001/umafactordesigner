@@ -78,63 +78,57 @@ U-toolsから最新の継承固有スキル情報を取得し、`references/trai
 
 ### ステップ4: 親進化フラグの手動補足
 
-以下のキャラクターのエントリに限り `parent_evolution` フィールドを手動で設定する。
-他の全キャラクターは `is_evolution_trigger: false`、`evolves_skill_id: null`、`note: null` とする。
+以下のキャラクターのエントリに限り、`parent_evolution`は`is_evolution_trigger: true`とする。
+他の全キャラクターについて`parent_evolution`は `is_evolution_trigger: false`とする。
 
-| キャラ（full_name） | is_evolution_trigger | note |
-|------------------|---------------------|------|
-| `ステイゴールド`（通常） | `true` | `"親として使用時に特定の継承先の固有スキルが進化する"` |
-| `[Eternal Fairytale] ラインクラフト` | `true` | `"親として使用時に特定の継承先の固有スキルが進化する"` |
+ * `ステイゴールド（通常）`
+ * `[Eternal Fairytale] ラインクラフト`
 
 `evolves_skill_id` は現時点では `null` とし、判明次第手動で更新する。
 
-### ステップ5: JSONの組み立て
+### ステップ5: 補足情報の記載
+
+その他、既存のJSON構造に格納できなかった発動条件や効果等の補足情報は`note` フィールドに記載する。
+
+### ステップ6: JSONの組み立て
 
 全スキルのデータを以下のスキーマに従ったJSON配列として組み立てる:
 
 ```json
 [
   {
-    "id": "10071",
-    "skill_name": "波乱注意砲！",
-    "character_name": "ゴールドシップ",
+    "id": "900271",
+    "skill_name": "レッツ・アナボリック！",
+    "character_name": "メジロライアン",
     "costume_name": "通常",
-    "full_name": "通常ゴルシ",
-    "category": "固有",
+    "full_name": "通常ライアン",
+    "category": "継承固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [7, 9], "LoH": [7, 12] },
-      "rank_pct_min": null,
-      "rank_pct_max": 50,
-      "distance_pct_min": 50,
-      "distance_pct_max": 60,
-      "phase": null,
+      "rank_range": { "チャンミ": [6, null], "LoH": [8, null] },
+      "rank_pct_min": 65,
+      "rank_pct_max": 70,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
       "running_styles": []
     },
     "effects": {
-      "target_speed_mps": 0.15,
-      "acceleration_mps2": null,
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
       "stamina_recovery_pct": null,
-      "duration_base_sec": 6.0,
-      "duration_multiplier": "distance_m / 1000",
-      "cooldown_base_sec": 500
-    },
-    "inherited_effects": {
-      "target_speed_mps": 0.05,
-      "acceleration_mps2": null,
-      "stamina_recovery_pct": null,
-      "duration_sec": 3.6,
+      "duration_sec": 2.4,
       "cost_pt": 200
     },
     "parent_evolution": {
       "is_evolution_trigger": false,
-      "evolves_skill_id": null,
-      "note": null
-    }
+      "evolves_skill_id": null
+    },
+    "note": null
   }
 ]
 ```
 
-### ステップ6: ファイル保存
+### ステップ7: ファイル保存
 
 組み立てたJSON配列を `references/trainee.json` に書き込む。
 既存の内容は全て上書きする。
