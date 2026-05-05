@@ -13,6 +13,7 @@
       "distance_pct_min": null,
       "distance_pct_max": null,
       "phase": "終盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -41,7 +42,8 @@
       "rank_pct_max": null,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "ラストスパート",
+      "phase": "最終盤",
+      "phase_detail": "残り200m",
       "running_styles": []
     },
     "effects": {
@@ -71,6 +73,7 @@
       "distance_pct_min": null,
       "distance_pct_max": null,
       "phase": "中盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -99,7 +102,8 @@
       "rank_pct_max": null,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "ラストスパート",
+      "phase": "最終盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -129,6 +133,7 @@
       "distance_pct_min": null,
       "distance_pct_max": null,
       "phase": "終盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -157,7 +162,8 @@
       "rank_pct_max": null,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "ラストスパート",
+      "phase": "最終盤",
+      "phase_detail": "残り300m以下",
       "running_styles": []
     },
     "effects": {
@@ -187,6 +193,7 @@
       "distance_pct_min": null,
       "distance_pct_max": null,
       "phase": "中盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -215,7 +222,8 @@
       "rank_pct_max": null,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "ラストスパート",
+      "phase": "最終盤",
+      "phase_detail": "残り400m",
       "running_styles": []
     },
     "effects": {
@@ -245,6 +253,7 @@
       "distance_pct_min": 50,
       "distance_pct_max": 51,
       "phase": "中盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -274,6 +283,7 @@
       "distance_pct_min": 50,
       "distance_pct_max": 55,
       "phase": "中盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -302,7 +312,8 @@
       "rank_pct_max": null,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "終盤",
+      "phase": "最終盤",
+      "phase_detail": null,
       "running_styles": ["追込"]
     },
     "effects": {
@@ -332,6 +343,7 @@
       "distance_pct_min": null,
       "distance_pct_max": null,
       "phase": "終盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -361,6 +373,7 @@
       "distance_pct_min": null,
       "distance_pct_max": null,
       "phase": "終盤",
+      "phase_detail": null,
       "running_styles": ["追込"]
     },
     "effects": {
@@ -390,6 +403,7 @@
       "distance_pct_min": null,
       "distance_pct_max": null,
       "phase": null,
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -419,6 +433,7 @@
       "distance_pct_min": 50,
       "distance_pct_max": null,
       "phase": null,
+      "phase_detail": null,
       "running_styles": ["差し", "追込"]
     },
     "effects": {
@@ -448,6 +463,7 @@
       "distance_pct_min": 50,
       "distance_pct_max": null,
       "phase": null,
+      "phase_detail": null,
       "running_styles": ["差し", "追込"]
     },
     "effects": {
@@ -476,7 +492,8 @@
       "rank_pct_max": null,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "ラストスパート",
+      "phase": "最終盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -505,7 +522,8 @@
       "rank_pct_max": null,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "ラストスパート",
+      "phase": "最終盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -535,6 +553,7 @@
       "distance_pct_min": 50,
       "distance_pct_max": null,
       "phase": null,
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -563,7 +582,8 @@
       "rank_pct_max": 30,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "ラストスパート",
+      "phase": null,
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -593,6 +613,7 @@
       "distance_pct_min": 45,
       "distance_pct_max": null,
       "phase": "中盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
@@ -621,7 +642,8 @@
       "rank_pct_max": 70,
       "distance_pct_min": null,
       "distance_pct_max": null,
-      "phase": "ラストスパート",
+      "phase": "最終盤",
+      "phase_detail": "残り300m",
       "running_styles": []
     },
     "effects": {
@@ -651,6 +673,7 @@
       "distance_pct_min": 50,
       "distance_pct_max": 51,
       "phase": "中盤",
+      "phase_detail": null,
       "running_styles": []
     },
     "effects": {
