@@ -16,7 +16,7 @@ umafactordesigner/
 │   ├── trainee.json           # 継承固有スキル情報（スキル1が生成）
 │   └── racetrack.json         # レース場・コース情報（スキル2が生成）
 └── output/
-    └── {レース場}_{路面}_{距離}m.md   # 因子構成推奨結果（スキル3が生成）
+    └── {レース場}_{路面}_{距離}m_{race_mode}.md   # 因子構成推奨結果（スキル3が生成）
 ```
 
 ### `references/trainee.json` スキーマ
@@ -24,34 +24,34 @@ umafactordesigner/
 ```json
 [
   {
-    "id": "10071",
-    "skill_name": "波乱注意砲！",
-    "character_name": "ゴールドシップ",
+    "id": "900271",
+    "skill_name": "レッツ・アナボリック！",
+    "character_name": "メジロライアン",
     "costume_name": "通常",
-    "full_name": "通常ゴルシ",
-    "category": "固有",
+    "full_name": "通常ライアン",
+    "category": "継承固有",
     "activation_conditions": {
-      "rank_range": { "チャンミ": [7, 9], "LoH": [7, 12] },
-      "rank_pct_min": null,
-      "rank_pct_max": 50,
-      "distance_pct_min": 50,
-      "distance_pct_max": 60,
-      "phase": null,
+      "rank_range": { "チャンミ": [6, null], "LoH": [8, null] },
+      "rank_pct_min": 65,
+      "rank_pct_max": 70,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
       "phase_detail": null,
       "running_styles": []
     },
-    "inherited_effects": {
-      "target_speed_mps": 0.05,
-      "acceleration_mps2": null,
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
       "stamina_recovery_pct": null,
-      "duration_sec": 3.6,
+      "duration_sec": 2.4,
       "cost_pt": 200
     },
     "parent_evolution": {
       "is_evolution_trigger": false,
-      "evolves_skill_id": null,
-      "note": null
-    }
+      "evolves_skill_id": null
+    },
+    "note": null
   }
 ]
 ```
@@ -67,10 +67,10 @@ umafactordesigner/
 | `full_name` | string | U-tools表示名（`[衣装名] キャラ名` 形式） |
 | `category` | string | `"継承固有"` または `"進化固有"` |
 | `activation_conditions` | object | 発動条件 |
-| `inherited_effects` | object | 継承時の効果 |
+| `effects` | object | 継承時の効果 |
 | `parent_evolution.is_evolution_trigger` | boolean | 親として使用した際に固有進化を引き起こすか |
 | `parent_evolution.evolves_skill_id` | string\|null | 進化先スキルのID |
-| `parent_evolution.note` | string\|null | 手動補足メモ |
+| `note` | string\|null | 補足情報 |
 
 ### categoryの定義
 
@@ -241,13 +241,13 @@ U-toolsから全107コースのレース場情報を取得し、`references/race
 #### 基本（自動推奨）
 
 `references/trainee.json` と `references/racetrack.json` のデータを組み合わせ、
-以下の観点でコース特性にマッチするキャラを優先推奨する:
+スコアリング方式でコース・脚質にマッチするキャラを選出する。主な評価軸:
 
-1. **フェーズ一致**: スキルの発動フェーズがコースのキーフェーズ（終盤・ラストスパート）と一致
-2. **距離%一致**: スキルの発動距離%がコースの主要フェーズ区間と重なる
-3. **方向一致**: 右回り/左回り適正スキルとコース方向が一致
-4. **坂一致**: 上り坂・下り坂スキルとコースの坂位置が一致
-5. **脚質一致**: 発動条件に含まれる脚質指定がターゲット脚質と一致
+1. **スコア計算**: 終盤加速スキル・終盤速度スキル・中盤/序盤スキルの3タイプをそれぞれ定式でスコア化
+2. **rank_multiplier**: レースモード別の順位条件と脚質別着順確率分布を組み合わせて重み付け
+3. **delay_multiplier**: 終盤加速スキルは発動タイミングが遅いほどスコアを減衰
+4. **脚質フィルター**: `running_styles` 指定があるスキルはターゲット脚質と一致する場合のみ対象
+5. **タイプバランス**: 推奨6役割（親2・祖父母4）を終盤加速・終盤速度・序盤/中盤の3タイプが均等になるよう選出
 
 #### ユーザー制約条件（追加フィルター）
 
@@ -276,26 +276,59 @@ output/{レース場}_{路面}_{距離}m_{race_mode}.md
 
 ## 逃げ
 
-| 役割 | 推奨キャラ | 根拠スキル |
-|-----|-----------|-----------|
-| 親1 | [衣装名] キャラ名 | スキル名 |
-| 祖父母11 | [衣装名] キャラ名 | スキル名 |
-| 祖父母12 | [衣装名] キャラ名 | スキル名 |
-| 親2 | [衣装名] キャラ名 | スキル名 |
-| 祖父母21 | [衣装名] キャラ名 | スキル名 |
-| 祖父母22 | [衣装名] キャラ名 | スキル名 |
+### 推奨因子構成
+
+| 役割 | 推奨キャラ | 根拠スキル | スコア | 備考 |
+|-----|-----------|-----------|-------|-----|
+| 親1 | [衣装名] キャラ名 | スキル名 | 0.0 | |
+| 祖父母11 | [衣装名] キャラ名 | スキル名 | 0.0 | |
+| 祖父母12 | [衣装名] キャラ名 | スキル名 | 0.0 | |
+| 親2 | [衣装名] キャラ名 | スキル名 | 0.0 | |
+| 祖父母21 | [衣装名] キャラ名 | スキル名 | 0.0 | |
+| 祖父母22 | [衣装名] キャラ名 | スキル名 | 0.0 | |
+
+### 推奨スキル Top 10（逃げ）
+
+| 順位 | スキル名 | キャラ | 発動タイミング | 効果タイプ | スコア |
+|-----|---------|-------|-------------|-----------|-------|
+| 1 | スキル名 | キャラ名 | 終盤/中盤/序盤 | 速度/加速/スタミナ | 0.0 |
 
 ## 先行
+
+### 推奨因子構成
+
+（同形式）
+
+### 推奨スキル Top 10（先行）
 
 （同形式）
 
 ## 差し
 
+### 推奨因子構成
+
+（同形式）
+
+### 推奨スキル Top 10（差し）
+
 （同形式）
 
 ## 追込
 
+### 推奨因子構成
+
 （同形式）
+
+### 推奨スキル Top 10（追込）
+
+（同形式）
+
+---
+
+## スコアリング根拠
+
+| キャラ | スキル | フェーズ | 効果タイプ | rank_mult | delay_mult | 最終スコア |
+|-------|-------|---------|----------|-----------|-----------|---------|
 ```
 
 ---
