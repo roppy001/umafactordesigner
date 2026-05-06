@@ -868,5 +868,305 @@
       "evolves_skill_id": null
     },
     "note": "最終直線・残り持久力30%以上・2位以内で発動"
+  },
+  {
+    "id": "900201",
+    "skill_name": "アングリング×スキーミング",
+    "character_name": "セイウンスカイ",
+    "costume_name": "通常",
+    "full_name": "通常ウンス",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 1], "LoH": [1, 1] },
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": null
+  },
+  {
+    "id": "910201",
+    "skill_name": "Do Ya Breakin!",
+    "character_name": "セイウンスカイ",
+    "costume_name": "ソワレ・ド・シャトン",
+    "full_name": "[ソワレ・ド・シャトン] セイウンスカイ",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 2], "LoH": [1, 2] },
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.15,
+      "acceleration_mps2": 0.07,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "終盤以降の直線で速度上昇。向正面の場合さらに加速度0.07[m/s²]追加"
+  },
+  {
+    "id": "920241",
+    "skill_name": "HOP STEP♪LOCK ON!",
+    "character_name": "マヤノトップガン",
+    "costume_name": "ろっきん☆MewMeow",
+    "full_name": "[ろっきん☆MewMeow] マヤノトップガン",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 3], "LoH": [1, 3] },
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "中盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.05,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": 3.5,
+      "duration_sec": 3.6,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "1位（中盤以降）またはOR 2-3位追い越し中（中盤以降）で発動"
+  },
+  {
+    "id": "910611",
+    "skill_name": "轟！トレセン応援団！！",
+    "character_name": "キングヘイロー",
+    "costume_name": "白く気高き激励の装",
+    "full_name": "[白く気高き激励の装] キングヘイロー",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [8, 9], "LoH": [8, 12] },
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": 50,
+      "distance_pct_max": 70,
+      "phase": "最終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": null,
+      "acceleration_mps2": 0.2,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "前半（走行距離50〜70%）に8位以下を維持かつかかっていない状態で最終直線に発動"
+  },
+  {
+    "id": "900681",
+    "skill_name": "勝ち鬨ワッショイ！",
+    "character_name": "キタサンブラック",
+    "costume_name": "通常",
+    "full_name": "通常キタサン",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 2], "LoH": [1, 2] },
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": 50,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.05,
+      "acceleration_mps2": 0.1,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "2位以内・50%以降の第3コーナーまたは終盤の向正面で発動"
+  },
+  {
+    "id": "910681",
+    "skill_name": "あっぱれ大盤振る舞い！",
+    "character_name": "キタサンブラック",
+    "costume_name": "真打・慶鶴之志",
+    "full_name": "[真打・慶鶴之志] キタサンブラック",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 3], "LoH": [1, 3] },
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "phase_detail": "残り600m以上",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.15,
+      "acceleration_mps2": 0.05,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": null
+  },
+  {
+    "id": "910871",
+    "skill_name": "ふわもこアワー",
+    "character_name": "アストンマーチャン",
+    "costume_name": "溶けない砂糖菓子",
+    "full_name": "[溶けない砂糖菓子] アストンマーチャン",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 4], "LoH": [1, 4] },
+      "rank_pct_min": 30,
+      "rank_pct_max": null,
+      "distance_pct_min": 45,
+      "distance_pct_max": 50,
+      "phase": "中盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.25,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "短距離限定。走行距離45〜50%・1-4位・順位割合30%以上で発動。賢さ1200未満は速度0.15[m/s]"
+  },
+  {
+    "id": "910981",
+    "skill_name": "五獣挙りて彩光奏づ",
+    "character_name": "コパノリッキー",
+    "costume_name": "光彩陸離☆招福衣",
+    "full_name": "[光彩陸離☆招福衣] コパノリッキー",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": { "チャンミ": [1, 6], "LoH": [1, 6] },
+      "rank_pct_min": 50,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "phase_detail": "残り500m以上",
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.15,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 3.0,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "ダート限定。終盤以降かつ残り500m以上・1-6位・順位割合50%以上で発動"
+  },
+  {
+    "id": "911091",
+    "skill_name": "ずっとずっと輝いて",
+    "character_name": "ラインクラフト",
+    "costume_name": "Eternal Fairytale",
+    "full_name": "[Eternal Fairytale] ラインクラフト",
+    "category": "継承固有",
+    "activation_conditions": {
+      "rank_range": null,
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.05,
+      "acceleration_mps2": null,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": 200
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": true,
+      "evolves_skill_id": "92111091"
+    },
+    "note": "阪神1600m・京都2000m・東京2400mの芝（トリプルティアラ）限定。終盤以降のコーナーで発動"
+  },
+  {
+    "id": "92111091",
+    "skill_name": "ずっとずっと輝いて",
+    "character_name": "ラインクラフト",
+    "costume_name": "Eternal Fairytale",
+    "full_name": "[Eternal Fairytale] ラインクラフト",
+    "category": "進化固有",
+    "activation_conditions": {
+      "rank_range": null,
+      "rank_pct_min": null,
+      "rank_pct_max": null,
+      "distance_pct_min": null,
+      "distance_pct_max": null,
+      "phase": "終盤",
+      "phase_detail": null,
+      "running_styles": []
+    },
+    "effects": {
+      "target_speed_mps": 0.15,
+      "acceleration_mps2": 0.1,
+      "stamina_recovery_pct": null,
+      "duration_sec": 2.4,
+      "cost_pt": null
+    },
+    "parent_evolution": {
+      "is_evolution_trigger": false,
+      "evolves_skill_id": null
+    },
+    "note": "阪神1600m・京都2000m・東京2400mの芝（トリプルティアラ）限定。下り坂で加速度0.1[m/s²]追加"
   }
 ]
